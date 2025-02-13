@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Survey</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body">
+        <div class="w3-container">
+            <div class="column">
+                <img src="food.jpg" class="food-img"> 
+            </div>
+            <div class="column">
+                <form method="get" id="survey-form">
+                    <h1 id="title">Flavor Focus: A Food Product Survey</h1>
+                    <p id="description" class="w3-large"> We're on a mission to discover the next big taste sensation!  Your valuable feedback will help shape the future of our food products.  Share your flavor preferences and help us create delicious new offerings that you'll love.  Take a few minutes to complete this survey and let your taste buds be heard!</p>
+                    <br>
+                    
+                    <div class="div-bg">
+
+                        <label for="name " id="name-label" class="w3-medium">Name</label>
+                        <input type="text" name="name" id="name" class="w3-input w3-border w3-round" placeholder="Your name" required> <br>
+
+                        <label for="email" id="email-label">Email</label>
+                        <input type="email" name="email" id="email" class="w3-input w3-border w3-round" placeholder="Your email" required> <br>
+
+                        <label for="age" id="age-label">Age</label>
+                        <input type="number" name="age" id="age" class="w3-input w3-border w3-round" placeholder="Your age" min="7" max="100" required> <br>
+
+                        <label for="gender">Gender</label> <br>
+                        <input type="radio" class="w3-radio" name="gender" value="male"> Male &nbsp;&nbsp;
+                        <input type="radio" class="w3-radio" name="gender" value="female"> Female &nbsp;&nbsp;
+                        <input type="radio" class="w3-radio" name="gender" value="other"> Other &nbsp;&nbsp;
+                        <input type="radio" class="w3-radio" name="gender" value="blank"> Prefer not to say <br> <br>
+
+                        <label for="location">Location (Optional)</label>
+                        <input type="textarea" name="location" id="location" class="w3-input w3-border w3-round" placeholder="Your Location"> <br>
+
+                        <label for="fav_food">What is your favorite food? </label>
+                        <input type="text" name="fav_food"  class="w3-input w3-border w3-round" placeholder="Your favorite food"> <br>
+
+                        <label for="foodPreference">What is your food preference? (Choose one or more)</label> <br>  
+                        <input type="checkbox" id="american" name="cuisine" value="American">
+                        <label for="american">American</label> <br>
+
+                        <input type="checkbox" id="chinese" name="cuisine" value="Chinese">
+                        <label for="chinese">Chinese</label> <br>
+
+                        <input type="checkbox" id="italian" name="cuisine" value="Italian">
+                        <label for="italian">Italian</label> <br> 
+
+                        <input type="checkbox" id="mexican" name="cuisine" value="Mexican">
+                        <label for="mexican">Mexican</label> <br>
+
+                        <input type="checkbox" id="indian" name="cuisine" value="Indian">
+                        <label for="indian">Indian</label> <br>
+
+                        <input type="checkbox" id="japanese" name="cuisine" value="Japanese">
+                        <label for="japanese">Japanese</label> <br>
+
+                        <input type="checkbox" id="thai" name="cuisine" value="Thai">
+                        <label for="thai">Thai</label> <br>
+
+                        <input type="checkbox" id="vietnamese" name="cuisine" value="Vietnamese">
+                        <label for="vietnamese">Vietnamese</label> <br>
+
+                        <input type="checkbox" id="filipino" name="cuisine" value="Filipino">
+                        <label for="filipino">Filipino</label> <br>
+
+                        <input type="checkbox" id="other" name="cuisine" value="Other">
+                        <label for="other">Other</label>
+                        <input type="text" id="other-cuisine" name="other_cuisine" class="w3-input" placeholder="Please specify if 'Other'" size="50px"> <br> <br>
+
+                        <label for="type_food">What types of food do you eat most often? (Please select one or more)</label> <br>
+                        <input type="checkbox" id="meat" name="type_food" value="Meat">
+                        <label for="meat">Meat (Beef, Pork, Chicken, etc.)</label> <br>
+
+                        <input type="checkbox" id="seafood" name="type_food" value="Seafood">
+                        <label for="seafood">Seafood</label> <br>
+
+                        <input type="checkbox" id="vegetarian" name="type_food" value="Vegetarian">
+                        <label for="vegetarian">Vegetarian</label> <br>
+
+                        <input type="checkbox" id="gluten_free" name="type_food" value="GlutenFree">
+                        <label for="gluten_free">Gluten-Free</label> <br>
+
+                        <input type="checkbox" id="dairy_free" name="type_food" value="DairiyFree">
+                        <label for="dairy_free">Dairy-Free</label> <br> 
+
+                        <input type="checkbox" id="other_type" name="type_food" value="Other">
+                        <label for="other_type">Other</label>
+                        <input type="text" id="other-type" name="other_type" class="w3-input" placeholder="Please specify if 'Other'" size="50px"> <br> <br>
+                        
+                        <label for="allergies">Do you have any dietary restrictions or allergies?</label> <br>
+                        <input type="radio" class="w3-radio" name="allergies" value="yes"> Yes &nbsp;&nbsp;
+                        <input type="radio" class="w3-radio" name="allergies" value="no"> No <br> <br> <br>
+
+                        <label for="spiciness">What is your preferred level of spiciness? (Please select one):</label><br>
+                        <input type="radio" class="w3-radio" name="spiciness" value="not_spicy"> Not spicy at all<br>
+                        <input type="radio" class="w3-radio" name="spiciness" value="mild"> Mild<br>
+                        <input type="radio" class="w3-radio" name="spiciness" value="medium"> Medium<br>   
+                        <input type="radio" class="w3-radio" name="spiciness" value="spicy"> Spicy<br>
+                        <input type="radio" class="w3-radio" name="spiciness" value="very_spicy"> Very spicy<br><br>
+
+                        <label for="prefer">Do you prefer sweet, savory, or both? (Please select one):</label><br>
+                        <input type="radio" class="w3-radio" name="prefer" value="sweet"> Sweet <br>
+                        <input type="radio" class="w3-radio" name="prefer" value="savory"> Savory <br>
+                        <input type="radio" class="w3-radio" name="prefer" value="borh"> Both <br><br>        
+
+                        <label for="dropdown">How often do you eat out? (Please select one)</label>
+                        <select name="dropdown" id="dropdown" class="w3-input w3-border w3-round">
+                            <option selected disabled hidden>Select one</option>
+                            <option>Never</option>
+                            <option>Less than once a week</option>
+                            <option>1-2 times a week</option>
+                            <option>3-5 times a week</option>
+                            <option>More than 5 times a week</option>
+                        </select>
+
+                        <br><br>
+                        <label for="comment">Comments & Suggestions (Optional)</label>
+                        <input type="textarea" name="comment" id="comment" class="w3-input w3-border w3-round" placeholder="Your comment"> <br>
+
+                        <br><br>
+                        <input type="submit" class="w3-button w3-round-large" id="btn_submit" value="Submit my information"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
+
