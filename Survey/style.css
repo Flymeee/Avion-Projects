@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 .body {
     background-color: #E9FFD9;
@@ -61,3 +62,68 @@ h1 {
     background-color: #0d0e0d;
 }
 
+=======
+
+.body {
+    background-color: #E9FFD9;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+
+h1 { 
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+  font-size: 30px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 600px; 
+  line-height: 26.4p;
+}
+
+#description {
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+  font-size: 18px; font-style: normal; 
+  font-variant: normal; 
+  font-weight: 300; 
+  line-height: 26.4p;
+}
+
+.div-bg {
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);;
+    overflow: scroll;
+    width: 600px;
+    height: 500px;
+}
+
+.w3-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+.column img {
+    max-width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+#btn_submit {
+    margin-left: 33%;
+    color: white;
+    background-color: #0d0e0d;
+}
+
+>>>>>>> 4d6fdb640445e30b15d905701e7d7cc4fecaa17e
