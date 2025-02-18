@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <form method="get" class="w3-container">
+            <label for="firstname">First name:</label>
+            <input type="text" class="w3-input" name="firstname" required placeholder="Enter your name..."/> <br/>
+
+            <label for="lastname">Last name:</label>
+            <input type="text" class="w3-input" name="lastname" /> <br/>
+
+            <label for="condition">Do you agree with the condition?</label>
+            <input type="radio" class="w3-radio" name="condition" value="yes" checked> Yes
+            <input type="radio" class="w3-radio" name="condition" value="no"> No <br /> <br>
+
+            <label for="password">Pin Number:</label>
+            <input type="password" class="w3-input" name="password" size="5"> <br /> 
+
+            <label for="address">Address:</label>
+            <textarea name="address" class="w3-input" maxlength="50" rows="8" cols="30" required></textarea> <br />
+
+            <label>Drink:</label>
+            <input type="checkbox" class="w3-check" name="drink" id="coffee" value="coffee" > Coffee
+            <input type="checkbox" class="w3-check" name="drink" id="coffee" value="tea" > Tea
+            <input type="checkbox" class="w3-check" name="drink" id="coffee" value="chocolate" > chocolate
+            <input type="checkbox" class="w3-check" name="drink" id="coffee" value="strawberry" > strawberry
+            <input type="checkbox" class="w3-check" name="drink" id="coffee" value="orange" >orange <br> <br>
+            
+            <label for="dessert">Dessert:</label>
+            <select class="w3-input" name="dessert">
+                <option selected disabled hidden>Select Option</option>
+                <option value="ice cream">Ice Cream</option>
+                <option value="salad">Salad</option>
+                <option value="gulaman">Gulaman</option>
+                <option value="leche flan">Leche Flan</option>
+            </select> <br/> <br />
+
+            <label for="email">Email:</label>
+            <input type="email" class="w3-input" name="email"> <br>
+            
+            <label for="birthday">Birthday:</label>
+            <input type="date" class="w3-input" name="birthday" min="2025-02-03" max="2025-02-11"> <br />
+
+            <label for="age">Age:</label>
+            <input type="number" class="w3-input" name="age" min="18" max="100"> <br />
+
+            <br>
+            <input type="submit" class="w3-button w3-black w3-round-small" value="Submit my information" />
+        </form>
+    </body>
+</html>
