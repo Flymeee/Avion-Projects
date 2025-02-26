@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: black;
+    /* background: url(/assets/bg.jpg) no-repeat 0 0; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover, a.active {
+    color: #01559D;
+}
+
+.title {
+    font-size: 2em;
+    letter-spacing: 1px;
+    margin: 32px auto;
+}
+
+
+.title strong {
+    font-size: 1.5em;
+    display: block;
+    margin-top: 20px;
+    line-height: 80px;
+}
+
+.msg {
+   max-width: 80%;
+   font-size: 1em;
+   letter-spacing: 0.7px;
+   margin-bottom: 48px;
+}
+
+.msg-nizmo {
+   color: white;
+   max-width: 80%;
+   font-size: 1em;
+   letter-spacing: 0.7px;
+   margin-bottom: 48px;
+}
+
+.submit {
+    justify-self: center;
+    margin-top: 20px;
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color:#01559D;
+    padding: 25px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit:hover {
+    background-color: red;
+}
+
+button.btn {
+    font-size: 25px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color:#01559D;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 7px 12px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: red;
+}
+
+.main {
+    padding: 90px;
+    position: inherit;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondary {
+    padding: 90px;
+    position: inherit;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth {
+    margin: 100px;
+    padding: 90px;
+    position: inherit;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-title {
+   max-width: 80%;
+   font-size: 50px;
+   letter-spacing: 0.7px;
+   margin-bottom: 48px;
+}
+
+.form-container {
+    font-size: 40px;   
+}
+
+
+
+#header {
+    display: flex;
+    height: 200px;
+    background-color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 30px;
+    position: sticky;
+    top: 0;
+}
+
+.left-nav {
+    width: 15%;
+    font-size: 50px;
+    
+}
+
+.nissan-logo, .right-nav {
+    display: none;
+}
+
+img {
+    max-width: 140px;
+    height: 100%;
+    line-height: 90px;
+    display: block;
+}
+
+.nav-link { 
+    padding: 100% 15px 80px 15px;
+    /* background-color: blue; */
+    font-size: 30px;
+    color: black;
+}
+
+
+.car1 {
+    height: auto;
+    max-width: 60%;
+    display: flex;
+    justify-self: center;
+}
+
+.car2 {
+    height: auto;
+    max-width: 60%;
+    display: flex;
+    justify-self: center;
+}
+
+
+
+.specs {
+    display: flex;
+    justify-content: space-around; 
+
+}
+
+#specs {
+    font-size: 32px;
+}
+
+
+.left {
+    margin-left: 10%;
+    font-size: 50px;
+}
+
+.embed-vid {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+iframe {
+    display: flex;
+    margin-top: 100px;
+    border-radius: 20px;
+    
+}
+
+footer {
+    color: #000;
+    background-color: #f0f0f0; 
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    font-size: 1.8em;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #555;
+    font-size: 20px;
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-nav li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    .nissan-logo {
+        display: block;
+        max-width: 140px;
+    }
+
+    .right-nav {
+        display: block;
+        
+    }
+
+    .nissan-header {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .nissan-logo {
+        display: block;
+        max-width: 140px;
+    }
+
+    .right-nav {
+        display: block;
+        gap: 27px;
+    }
+
+    .nissan-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nissan-logo {
+        display: none;
+    }
+
+    .right-nav {
+        display: none;
+    }
+
+    .nissan-header {
+        display: block;
+    }
+}
+

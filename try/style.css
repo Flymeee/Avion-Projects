@@ -1,17 +1,49 @@
-/* @media all and (min-width: 320px) and (max-width: 720px){
- body {
-    background-color: yellow;
- }
- h1 {
-    background-color: red;
- }
-} */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.nav {
 
-/* @media only screen and (orientation: landscape ) {
-    body {
-        background-color: pink;
-    }
-} */
+}
 
- 
+.shopee-header {
+    
+}
+
+.shopee-logo, .right {
+    
+}
+
+.products {
+    
+}
+
+.item {
+    
+}
+
+.product-image {
+    
+}
+
+.description {
+    
+}
+git 
+footer {
+    
+}
+
+span a {
+    
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px){
+    
+}
