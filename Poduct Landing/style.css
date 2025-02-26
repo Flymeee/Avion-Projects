@@ -289,21 +289,6 @@ footer {
 }
 
 
-@media only screen and (min-width: 768px) {
-    .nissan-logo {
-        display: block;
-        max-width: 140px;
-    }
-
-    .right-nav {
-        display: block;
-        gap: 27px;
-    }
-
-    .nissan-header {
-        display: none;
-    }
-}
 
 @media only screen and (max-width: 767px) {
     .nissan-logo {
